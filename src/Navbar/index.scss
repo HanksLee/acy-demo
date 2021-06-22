@@ -1,0 +1,40 @@
+.navbar{
+    padding: var(--gap-2) var(--gap-1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navbar-left{
+        > a {
+            display: block;
+            width: 50px;
+        }
+    }
+    .navbar-right {
+        .login-btn,.logout-btn {
+            display: inline-block;
+            padding: 4px 0;
+            width: 100px;
+            border-radius: 4px;
+            border: 1px solid var(--blue);
+            box-sizing: border-box;
+        }
+        .login-btn{
+            background: var(--blue);
+            color: var(--white);
+        }
+        .logout-btn{
+            color: var(--blue);
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .navbar{
+        padding: 34px 92px;
+        .navbar-left{
+            > a {
+                width: 100px;
+            }
+        }
+    }
+}

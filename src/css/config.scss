@@ -1,0 +1,30 @@
+:root{
+    --white: #FFFFFF;
+    --green: #6BB718;
+    --blue:  #01254F;
+    --grey: #4C4C4C;
+    --deepGrey: #333333;
+    --borderColor: #C6C6C6;
+    --gap-1: 8px;
+    --gap-2: 12px;
+    --gap-3: 16px;
+    --gap-4: 20px;
+    --gap-5: 24px;
+    --grid-sm: 33.33%;
+    --grid-lg: 50%;
+    --gird-full: 100%;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    vertical-align: top;;
+}
+
+a {
+    text-decoration: none;
+}
